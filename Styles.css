@@ -1,0 +1,10 @@
+function changeTheme() {
+        var theme = document.getElementById('themeDropdown').value;
+        if (theme === 'default') {
+            document.body.style.background = '';
+            document.body.style.color = '';
+        } else if (theme === 'dark') {
+            document.body.style.background = '#333';
+            document.body.style.color = '#fff';
+        }
+}
